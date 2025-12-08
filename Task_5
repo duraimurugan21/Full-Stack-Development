@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task</title>
+</head>
+
+<body>
+
+
+<h1 id="home">My Personal Homepage</h1>
+
+<p><b>Name:</b> Duraimurugan</p>
+<p><b>Email:</b> duraimurugansekar@gmail.com</p>
+<p><b>City:</b> tiruppur</p>
+
+<p><i>I am a beginner learning HTML. I love coding, learning new skills, and building webpages.</i></p>
+
+
+
+<p><u>External Links:</u></p>
+<a href="https://www.google.com">Google</a><br>
+<a href="https://www.youtube.com">YouTube</a><br>
+<a href="https://www.w3schools.com">W3Schools</a><br>
+
+<hr>
+
+
+
+
+<h2>Student Info Dashboard</h2>
+
+<h3>Marks Table</h3>
+<table border="1" cellpadding="5">
+<tr>
+    <th>Name</th><th>Maths</th><th>Science</th>
+</tr>
+<tr><td>Asha</td><td>87</td><td>90</td></tr>
+<tr><td>Ravi</td><td>78</td><td>82</td></tr>
+<tr><td>Maya</td><td>92</td><td>95</td></tr>
+<tr><td>John</td><td>89</td><td>88</td></tr>
+<tr><td>Imran</td><td>76</td><td>80</td></tr>
+</table>
+
+<h3>Daily Study Routine</h3>
+<ol>
+    <li>Wake up</li>
+    <li>Read notes</li>
+    <li>Practice exercises</li>
+    <li>Revise</li>
+    <li>Sleep</li>
+</ol>
+
+
+<img src="https://www.w3schools.com/html/img_girl.jpg" width="150">
+<img src="https://www.w3schools.com/html/pic_trulli.jpg" width="150">
+
+<hr>
+
+
+
+
+<h2>Product Showcase</h2>
+
+<table border="1" cellpadding="5">
+<tr><th>Product</th><th>Price</th></tr>
+<tr><td>Pen</td><td>₹10</td></tr>
+<tr><td>Notebook</td><td>₹40</td></tr>
+<tr><td>Bag</td><td>₹700</td></tr>
+<tr><td>Bottle</td><td>₹150</td></tr>
+<tr><td>Shoes</td><td>₹1200</td></tr>
+</table>
+
+<h3>Product Gallery</h3>
+<img src="https://picsum.photos/120" width="120">
+<img src="https://picsum.photos/121" width="120">
+<img src="https://picsum.photos/122" width="120">
+<img src="https://picsum.photos/123" width="120">
+<img src="https://picsum.photos/124" width="120">
+<img src="https://picsum.photos/125" width="120">
+
+<h3>Shopping List</h3>
+<ul>
+    <li>Pen</li>
+    <li>Notebook</li>
+    <li>Water Bottle</li>
+</ul>
+
+<hr>
+
+
+
+
+<h2>Class & Activities</h2>
+
+<h3>Timetable</h3>
+<table border="1" cellpadding="5">
+<tr>
+    <th>Day</th><th colspan="2">Activities</th>
+</tr>
+<tr>
+    <td rowspan="2">Monday</td><td>Maths</td><td>Science</td>
+</tr>
+<tr>
+    <td>English</td><td>Sports</td>
+</tr>
+</table>
+
+<h3>Subjects → Topics</h3>
+<ul>
+    <li>Maths
+        <ul><li>Algebra</li><li>Geometry</li></ul>
+    </li>
+    <li>Science
+        <ul><li>Physics</li><li>Chemistry</li></ul>
+    </li>
+</ul>
+
+<p><a href="#home">Go to Home Section</a></p>
+
+<hr>
+
+
+
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<p><b>This is paragraph 1</b> about learning HTML.</p>
+<p><i>This is paragraph 2</i> with simple text.</p>
+<p><u>This is paragraph 3</u> with formatting.</p>
+
+<p>Sup/Sub examples: H<sub>2</sub>O, CO<sub>2</sub>, X<sup>2</sup>, 10<sup>3</sup>, A<sub>1</sub></p>
+
+<hr>
+
+
+
+
+<h2>Glossary</h2>
+
+<dl>
+    <dt>HTML</dt><dd>Web page structure.</dd>
+    <dt>CSS</dt><dd>Page styling.</dd>
+    <dt>JS</dt><dd>Web interaction.</dd>
+    <dt>URL</dt><dd>Web address.</dd>
+    <dt>Server</dt><dd>Stores website files.</dd>
+</dl>
+
+<h3>Notes</h3>
+<ul>
+    <li>Chapter 1
+        <ul><li>Basics</li></ul>
+    </li>
+    <li>Chapter 2
+        <ul><li>Tags</li></ul>
+    </li>
+</ul>
+
+<p>Useful Links:</p>
+<a href="https://developer.mozilla.org/">MDN</a><br>
+<a href="https://www.w3schools.com/">W3Schools</a><br>
+<a href="https://www.freecodecamp.org/">FreeCodeCamp</a><br>
+
+<hr>
+
+
+
+
+<h2>Mini Website (Demo Inside Same Page)</h2>
+
+<h3>Home Page</h3>
+<img src="https://picsum.photos/150" width="150">
+<img src="https://picsum.photos/151" width="150">
+
+<h3>About Page</h3>
+<img src="https://picsum.photos/152" width="150">
+<img src="https://picsum.photos/153" width="150">
+
+<hr>
+
+
+
+
+<h2>My Profile</h2>
+<img src="https://www.w3schools.com/howto/img_avatar.png" width="120">
+
+<p>Hello, I am a beginner web developer.</p>
+
+<h3>Skills</h3>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Basics of JavaScript</li>
+</ul>
+
+<h3>Projects</h3>
+<table border="1" cellpadding="5">
+<tr><th>Project</th><th>Status</th></tr>
+<tr><td>Website 1</td><td>Completed</td></tr>
+<tr><td>Website 2</td><td>In Progress</td></tr>
+</table>
+
+<p>Email: <a href="mailto:test@example.com">Send Mail</a></p>
+<p>Phone: <a href="tel:9876543210">Call Me</a></p>
+
+<hr>
+
+
+
+
+<h2>Forms Collection</h2>
+
+<h3>Student Registration Form</h3>
+<form>
+<label>Name: </label><input><br>
+<label>Age: </label><input><br>
+<label>Email: </label><input>
+</form>
+
+<h3>Job Application Form</h3>
+<form>
+<label>Name: </label><input><br>
+<label>Qualification: </label><input><br>
+<label>Phone: </label><input>
+</form>
+
+<h3>Feedback Form</h3>
+<form>
+<label>Your Name: </label><input><br>
+<label>Feedback: </label><input>
+</form>
+
+<h3>Login Form</h3>
+<form>
+<label>Username: </label><input><br>
+<label>Password: </label><input>
+</form>
+
+<hr>
+
+
+
+
+<h2>Why Learn HTML?</h2>
+
+<p>HTML helps you build webpages.</p>
+<p>It is easy and beginner-friendly.</p>
+<p>It is the base of all websites.</p>
+
+<img src="https://picsum.photos/140" width="140">
+<img src="https://picsum.photos/141" width="140">
+<img src="https://picsum.photos/142" width="140">
+
+<h3>Goals Table</h3>
+<table border="1" cellpadding="5">
+<tr><th>Goal</th><th>Status</th></tr>
+<tr><td>Learn HTML</td><td>Ongoing</td></tr>
+<tr><td>Learn CSS</td><td>Pending</td></tr>
+</table>
+
+<h3>Daily Routine</h3>
+<ul>
+    <li>Study
+        <ul><li>HTML Practice</li></ul>
+    </li>
+</ul>
+
+</body>
+</html>
