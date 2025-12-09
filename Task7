@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+</head>
+<body>
+
+    <H2>1.) Simple Student Table</H2>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Total-Mark</th>
+        </tr>
+        <tr>
+            <td>Yasin</td>
+            <td>AD</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Ajai</td>
+            <td>CSE</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>Kavin</td>
+            <td>EEE</td>
+            <td>57</td>
+        </tr>
+    </table><br>
+<hr><hr>
+
+<h2>2.) Header as (Name,Age,City) Table</h2>
+
+<table border="2">
+<tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+</tr>
+<tr>
+    <td>Imran</td>
+    <td>25</td>
+    <td>Dharapuram</td>
+</tr>
+<tr>
+    <td>Mahesh</td>
+    <td>21</td>
+    <td>VellaKoil</td>
+</tr>
+<tr>
+    <td>Ram</td>
+    <td>30</td>
+    <td>Chennai</td>
+</tr>
+<tr>
+    <td>Vijay</td>
+    <td>45</td>
+    <td>Combiatore</td>
+</tr>
+</table><br>
+<hr><hr>
+
+<h2>3.) Border, Cellpadding, Cellspacing Table</h2>
+<table border="1" cellpadding="20" cellspacing="20">
+    <tr>
+        <th>Full Name</th>
+        <th>Position</th>
+    </tr>
+    <tr>
+        <td>Bill Gates</td>
+        <td>Founder of Microsoft</td>
+    </tr>
+    <tr>
+        <td>Steve Jobs</td>
+        <td>Founder of Apple</td>
+    </tr>
+    <tr>
+        <td>Larry Page</td>
+        <td>Founder of Google</td>
+    </tr>
+</table><br>
+<hr><hr>
+
+<h2>4.) Colspan Example</h2>
+<table border="2">
+    <tr>
+        <th colspan="2">Monthly Saving</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td>$5,000</td>
+    </tr>
+    <tr>
+        <td>February</td>
+        <td>$3,500</td>
+    </tr>
+    <tr>
+        <td>March</td>
+        <td>$7,000</td>
+    </tr>
+</table><br>
+<hr><hr>
+
+<h2>5.) Rowspan Example</h2>
+<table border="2">
+    <tr>
+        <th>Monthly</th>
+        <th>Saving</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td>$5,000</td>
+    </tr>
+    <tr>
+        <td>February</td>
+        <td rowspan="2">$10,500</td>
+    </tr>
+    <tr>
+        <td>March</td>
+    </tr>
+</table><br>
+<hr><hr>
+
+<h2>6.) Product List Table with Image</h2>
+<table border="2">
+    <tr>
+        <th>Product Image</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td><img src="YOUR_IMAGE_HERE" width="80"></td>
+        <td>Sample Product</td>
+        <td>$99</td>
+    </tr>
+</table>
+
+</body>
+</html>
