@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Extras — Entities, SVG & Meta Tags (Updated Examples)</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Updated HTML entities, SVG examples and meta tag tasks.">
+  <meta name="keywords" content="HTML, SVG, entities, updated examples, meta tags">
+  <meta name="author" content="Student Name">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/891/891399.png" type="image/png">
+</head>
+<body>
+
+  <h1>Updated HTML Extras — Entities, SVG & Meta Tags</h1>
+  <hr>
+
+  <!-- ENTITIES SECTION -->
+  <section id="entities">
+    <h2>1. Updated Entities Tasks</h2>
+
+    <h3>1.1 — 15 Updated HTML Entities</h3>
+    <ol>
+      <li>&amp;ntilde; (ñ) —→ &ntilde;</li>
+      <li>&amp;Alpha; (Greek Alpha) —→ &Alpha;</li>
+      <li>&amp;Beta; (Greek Beta) —→ &Beta;</li>
+      <li>&amp;hearts; (Heart) —→ &hearts;</li>
+      <li>&amp;starf; (Black Star) —→ &#9733;</li>
+      <li>&amp;phone; (Telephone) —→ &#9742;</li>
+      <li>&amp;spades; —→ &spades;</li>
+      <li>&amp;clubs; —→ &clubs;</li>
+      <li>&amp;diamondsuit; —→ &diams;</li>
+      <li>&amp;laquo; (Left guillemet) —→ &laquo;</li>
+      <li>&amp;harr; (↔) —→ &harr;</li>
+      <li>&amp;ne; (≠) —→ &ne;</li>
+      <li>&amp;times; (×) —→ &times;</li>
+      <li>&amp;divide; (÷) —→ &divide;</li>
+      <li>&amp;hellip; (ellipsis) —→ &hellip;</li>
+    </ol>
+
+    <h3>1.2 — Updated Emoji Name</h3>
+    <p><strong>Name:</strong> Duraimurugan 🔥✨🎨</p>
+
+    <h3>1.3 — Updated Quote</h3>
+    <p>Creativity is the core of learning. Every new project teaches something unique.</p>
+    <blockquote cite="https://www.brainyquote.com/quotes/steve_jobs">
+      “The only way to do great work is to love what you do.” — Steve Jobs
+    </blockquote>
+
+    <h3>1.4 — Updated Special Characters Table</h3>
+    <table border="1" cellpadding="8" cellspacing="5">
+      <tr bgcolor="#dcdcdc">
+        <th>Character</th><th>Entity</th><th>Meaning</th>
+      </tr>
+      <tr><td>&hearts;</td><td>&amp;hearts;</td><td>Heart Symbol</td></tr>
+      <tr><td>&ne;</td><td>&amp;ne;</td><td>Not Equal To</td></tr>
+      <tr><td>&harr;</td><td>&amp;harr;</td><td>Left-Right Arrow</td></tr>
+      <tr><td>×</td><td>&amp;times;</td><td>Multiplication</td></tr>
+      <tr><td>÷</td><td>&amp;divide;</td><td>Division symbol</td></tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- SVG SECTION -->
+  <section id="svg-tasks">
+    <h2>2. Updated SVG Tasks</h2>
+
+    <h3>2.1 — New Traffic Light Style</h3>
+    <svg width="140" height="340" viewBox="0 0 140 340">
+      <rect x="20" y="10" width="100" height="320" rx="15" fill="#333" />
+      <circle cx="70" cy="70" r="35" fill="#ff4d4d" />
+      <circle cx="70" cy="160" r="35" fill="#ffec3d" />
+      <circle cx="70" cy="250" r="35" fill="#4dff4d" />
+    </svg>
+
+    <h3>2.2 — Updated House Shape</h3>
+    <svg width="250" height="200" viewBox="0 0 250 200">
+      <rect x="40" y="80" width="170" height="100" fill="#e0e0e0" stroke="#444"/>
+      <polygon points="30,80 125,10 220,80" fill="#ff7043" />
+      <rect x="120" y="120" width="35" height="60" fill="#6d4c41" />
+      <rect x="70" y="100" width="35" height="35" fill="#bbdefb" />
+      <rect x="165" y="100" width="35" height="35" fill="#bbdefb" />
+    </svg>
+
+    <h3>2.3 — Updated SVG Logo</h3>
+    <svg width="320" height="120" viewBox="0 0 320 120">
+      <circle cx="60" cy="60" r="45" fill="#0077ff" />
+      <text x="60" y="67" font-size="32" fill="white" text-anchor="middle" font-family="Arial" font-weight="700">DX</text>
+      <text x="130" y="55" font-size="26" font-family="Arial" fill="#333">DesignX Studio</text>
+      <text x="130" y="80" font-size="12" fill="#666">creative • stylish • digital</text>
+    </svg>
+
+    <h3>2.4 — Updated Flower</h3>
+    <svg width="250" height="250" viewBox="-80 -80 160 160">
+      <circle cx="0" cy="-50" r="25" fill="#ff8a80" />
+      <circle cx="40" cy="-40" r="25" fill="#ffab91" />
+      <circle cx="55" cy="0" r="25" fill="#ff8a80" />
+      <circle cx="40" cy="40" r="25" fill="#ffab91" />
+      <circle cx="0" cy="55" r="25" fill="#ff8a80" />
+      <circle cx="-40" cy="40" r="25" fill="#ffab91" />
+      <circle cx="-55" cy="0" r="25" fill="#ff8a80" />
+      <circle cx="-40" cy="-40" r="25" fill="#ffab91" />
+      <circle cx="0" cy="0" r="30" fill="#ffee58" />
+    </svg>
+  </section>
+
+  <hr>
+
+  <!-- META TAG SECTION -->
+  <section id="meta-tags">
+    <h2>3. Updated Meta Tag Examples</h2>
+
+    <h3>3.1 — New Portfolio Meta Tags</h3>
+    <pre>
+<meta name="description" content="Portfolio of Aadhi — Front-End Developer and Designer">
+<meta name="keywords" content="portfolio, javascript, html, css, UI designer">
+<meta name="author" content="Aadhi">
+<meta property="og:title" content="Aadhi — Developer Portfolio">
+<meta property="og:image" content="preview.png">
+    </pre>
+
+    <h3>3.2 — Updated Shopping Site Meta</h3>
+    <pre>
+<meta name="description" content="MegaKart — Deals on mobile, fashion & electronics">
+<meta property="og:title" content="MegaKart Online Store">
+<meta property="og:description" content="Best discounts on top brands. Shop now!">
+<meta name="theme-color" content="#ff4500">
+    </pre>
+  </section>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2025 — Updated HTML Exercise Examples</p>
+  </footer>
+
+</body>
+</html>
