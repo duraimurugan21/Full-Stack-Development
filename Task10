@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box1 { background: #ffd6d6; padding: 15px; border: 2px solid #ff4d4d; }
+.box2 { background: #d6f5ff; padding: 15px; border: 2px solid #0099cc; }
+.box3 { background: #e8ffd6; padding: 15px; border: 2px solid #66cc33; }
+.box4 { background: #fff2cc; padding: 15px; border: 2px solid #ffcc00; }
+.box5 { background: #f0e6ff; padding: 15px; border: 2px solid #9933ff; }
+
+input[type="text"] { border: 2px dashed purple; }
+input[type="email"] { border: 2px dashed orange; }
+input[type="password"] { border: 2px dashed teal; }
+button[type="submit"] { background: darkgreen; color: white; padding: 8px 15px; }
+
+#title { color: darkblue; font-size: 32px; text-decoration: underline; }
+#note { color: brown; font-style: italic; }
+#end { color: darkgray; font-weight: bold; }
+
+h2, p, ul { font-family: 'Courier New'; }
+</style>
+</head>
+
+<body>
+
+<h1 id="title">Updated CSS Tasks</h1>
+
+<div class="box1">New Box 1</div>
+<div class="box2">New Box 2</div>
+<div class="box3">New Box 3</div>
+<div class="box4">New Box 4</div>
+<div class="box5">New Box 5</div>
+
+<h2>Updated Form</h2>
+<form>
+  <input type="text" placeholder="Enter Name"><br><br>
+  <input type="email" placeholder="Enter Email"><br><br>
+  <input type="password" placeholder="Enter Password"><br><br>
+  <button type="submit">Submit Form</button>
+</form>
+
+<p id="note">This is an updated note using ID.</p>
+<p id="end">This is updated end text.</p>
+
+<h2>New Group Selector Example</h2>
+<p>This paragraph uses updated font style.</p>
+<ul>
+  <li>Updated Item 1</li>
+  <li>Updated Item 2</li>
+</ul>
+
+</body>
+</html>
