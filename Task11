@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Property Examples</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+
+  <h2>1. Inline, Block, Inline-Block</h2>
+  <span class="inl">INLINE</span>
+  <span class="blo">BLOCK</span>
+  <span class="inlb">INLINE-BLOCK</span>
+
+  <hr>
+
+  <h2>2. Display None</h2>
+  <h3 class="dishid">This text is hidden using display:none</h3>
+  <p>Text below display:none</p>
+
+  <hr>
+
+  <h2>3. Visibility Hidden</h2>
+  <h3 class="vishid">This text is hidden using visibility:hidden</h3>
+  <p>Space is still reserved above</p>
+
+  <hr>
+
+  <h2>4. Block to Inline</h2>
+  <div class="bllin">DIV changed to INLINE</div>
+  <div class="bllin">Another DIV</div>
+
+  <hr>
+
+  <h2>5. Inline to Block</h2>
+  <span class="linbl">SPAN changed to BLOCK</span>
+  <span class="linbl">Another SPAN</span>
+
+</body>
+</html>
