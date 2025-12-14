@@ -1,0 +1,37 @@
+.inl {
+  display: inline;
+  background-color: lightblue;
+}
+
+.blo {
+  display: block;
+  background-color: lightgreen;
+}
+
+.inlb {
+  display: inline-block;
+  width: 200px;
+  background-color: lightcoral;
+}
+
+
+.dishid {
+  display: none;
+}
+
+/* Visibility hidden */
+.vishid {
+  visibility: hidden;
+}
+
+
+.bllin {
+  display: inline;
+  background-color: orange;
+}
+
+
+.linbl {
+  display: block;
+  background-color: violet;
+}
