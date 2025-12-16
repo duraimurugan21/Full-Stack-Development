@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Article</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+    }
+
+    hr{
+        margin: 5px 0;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .left, .right{
+        display: flex;
+        gap: 15px;
+    }
+
+    .blue{
+        color: rgb(54, 157, 247);
+        cursor: pointer;
+    }
+
+    .active{
+        border-bottom: 2px solid black;
+        padding-bottom: 4px;
+    }
+
+    h2, h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+    }
+
+    .container{
+        display: flex;
+        gap: 30px;
+    }
+
+    .content{
+        width: 75%;
+    }
+
+    .app{
+        width: 25%;
+        font-size: 14px;
+        border-left: 1px solid #ccc;
+        padding-left: 15px;
+        margin-top: 15px;
+    }
+
+    .app h4{
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .app small{
+        color: #3366cc;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- MAIN CONTENT -->
+<div class="content">
+
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+        <h2>Article (Grammar)</h2>
+        <small class="blue" style="font-family: Impact;">78 languages ↴</small>
+    </div>
+
+    <hr>
+
+    <div class="menu">
+        <div class="left">
+            <p class="active"><b>Article</b></p>
+            <p class="blue"><b>Talk</b></p>
+        </div>
+
+        <div class="right">
+            <b class="active">Read</b>
+            <b class="blue">Edit</b>
+            <b class="blue">View history</b>
+            <b>Tools</b>
+        </div>
+    </div>
+
+    <hr>
+
+    <small>From Wikipedia, the free encyclopedia</small>
+    <br><br>
+
+    <p>
+        In <b class="blue">grammar</b>, an <b>article</b> is a word that is used with a
+        <b class="blue">noun</b> to identify the object or idea.
+        Articles are a <b class="blue">part of speech</b>.
+    </p>
+
+    <p>
+        Articles combine with nouns to form noun phrases and show
+        <b class="blue">definiteness</b>.
+        In <b class="blue">English</b>, <b>the</b> is the definite article,
+        while <b>a</b> and <b>an</b> are indefinite articles.
+    </p>
+
+    <h3>Types of Article <small class="blue">[ edit ]</small></h3>
+    <hr>
+
+    <h3><b>Definite Article</b> <small class="blue">[ edit ]</small></h3>
+
+    <p style="margin-left:50px;">
+        "Definite article" refers to a specific noun that is already known.
+    </p>
+
+    <p>
+        A <b>definite article</b> is used to refer to a particular person,
+        place, thing, or idea.
+        In English, the definite article is <b>the</b>.
+    </p>
+
+    <!-- UPDATED EXAMPLES -->
+    <p>For example, compare the following sentences:</p>
+
+    <ol>
+        <li>She found <b>the</b> key that she lost yesterday.</li>
+        <li>She found <b>a</b> key on the road.</li>
+    </ol>
+
+    <p>
+        In sentence 1, <b>the</b> refers to a specific key already known.
+        In sentence 2, <b>a</b> refers to any key.
+    </p>
+
+    <p>The definite article can also represent an entire class or species:</p>
+
+    <p style="margin-left:20px;">
+        <i><b>The</b> lion is known as the king of the jungle.</i>
+    </p>
+
+    <p>
+        Here, <b>the</b> does not mean one lion but all lions as a group.
+    </p>
+
+</div>
+
+<!-- SIDEBAR -->
+<div class="app">
+
+    <h4>Appearance <small>hide</small></h4>
+    <hr>
+
+    <section>
+        <b>Text</b>
+        <hr>
+        <input type="radio"> Small<br>
+        <input type="radio"> Standard<br>
+        <input type="radio"> Large
+    </section>
+    <br>
+
+    <section>
+        <b>Width</b>
+        <hr>
+        <input type="radio"> Standard<br>
+        <input type="radio"> Wide
+    </section>
+    <br>
+
+    <section>
+        <b>Color (beta)</b>
+        <hr>
+        <input type="radio"> Automatic<br>
+        <input type="radio"> Light<br>
+        <input type="radio"> Dark
+    </section>
+
+</div>
+
+</div>
+
+</body>
+</html>
