@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Examples</title>
+
+    <style>
+        
+        div p {
+            color: red;
+        }
+
+        
+        .child-demo > p {
+            color: blue;
+        }
+
+        
+        h2 + p {
+            color: green;
+        }
+
+        
+        h1 ~ p {
+            color: purple;
+        }
+
+        
+        img {
+            opacity: 0.6;
+        }
+
+        
+        a:hover {
+            color: brown;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        input:focus {
+            border: 2px solid blue;
+            outline: none;
+        }
+
+        
+        .text-demo::first-letter {
+            font-size: 36px;
+            color: red;
+        }
+
+        .text-demo::first-line {
+            font-weight: bold;
+        }
+
+        .text-demo::before {
+            content: "👉 ";
+        }
+
+        .text-demo::after {
+            content: " ✔";
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>1. Descendant Selector</h2>
+    <div>
+        <p>This paragraph is inside a div</p>
+    </div>
+    <div>
+        <p>This is another inside paragraph</p>
+    </div>
+
+    <hr>
+
+    <h2>2. Child Selector</h2>
+    <div class="child-demo">
+        <p>This is a direct child paragraph</p>
+        <span>
+            <p>This paragraph is inside span (not selected)</p>
+        </span>
+    </div>
+
+    <hr>
+
+    <h2>3. Adjacent Sibling Selector</h2>
+    <h2>Section Heading</h2>
+    <p>This paragraph is immediately after h2</p>
+    <p>This paragraph is NOT affected</p>
+
+    <hr>
+
+    <h2>4. General Sibling Selector</h2>
+    <h1>Main Heading</h1>
+    <p>Paragraph One</p>
+    <p>Paragraph Two</p>
+
+    <hr>
+
+    <h2>5. Opacity Example</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffKU88iTkY7bvKgEFbNZ_qqWHlux5OMg_1g&s" 
+         alt="Sample Image" width="200">
+
+    <hr>
+
+    <h2>6. Pseudo Class Example</h2>
+    <a href="#">Hover over this link</a><br><br>
+    <input type="text" placeholder="Click to focus">
+
+    <hr>
+
+    <h2>7. Pseudo Element Example</h2>
+    <p class="text-demo">
+        Learning CSS selectors makes styling easier and powerful.
+    </p>
+
+</body>
+</html>
