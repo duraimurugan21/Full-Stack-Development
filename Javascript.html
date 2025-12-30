@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Practice Tasks</title>
+</head>
+<body>
+<h2>JavaScript Basic Tasks (1–20)</h2>
+
+<script>
+function welcomeMessage() {
+    let hour = Number(prompt("Enter current hour (0-23):"));
+    if (hour >= 5 && hour < 12) alert("Good Morning");
+    else if (hour >= 12 && hour < 17) alert("Good Afternoon");
+    else alert("Good Evening");
+}
+
+function checkNumber() {
+    let num = Number(prompt("Enter a number:"));
+    if (num > 0) alert("Positive Number");
+    else if (num < 0) alert("Negative Number");
+    else alert("Zero");
+}
+
+function attendanceChecker() {
+    let total = Number(prompt("Total classes:"));
+    let attended = Number(prompt("Classes attended:"));
+    let percentage = (attended / total) * 100;
+    if (percentage >= 75) alert("Eligible (Attendance: " + percentage + "%)");
+    else alert("Not Eligible (Attendance: " + percentage + "%)");
+}
+
+function largestNumber() {
+    let limit = Number(prompt("How many numbers?"));
+    let largest = -Infinity;
+    for (let i = 1; i <= limit; i++) {
+        let num = Number(prompt("Enter number " + i));
+        if (num > largest) largest = num;
+    }
+    alert("Largest Number: " + largest);
+}
+
+function temperatureConverter() {
+    let choice = prompt("Type C for Celsius to Fahrenheit or F for Fahrenheit to Celsius");
+    let temp = Number(prompt("Enter temperature:"));
+    if (choice === "C") alert("Fahrenheit: " + ((temp * 9/5) + 32));
+    else if (choice === "F") alert("Celsius: " + ((temp - 32) * 5/9));
+    else alert("Invalid Choice");
+}
+
+function countVowels() {
+    let str = prompt("Enter a string:");
+    let count = 0;
+    for (let ch of str.toLowerCase()) {
+        if ("aeiou".includes(ch)) count++;
+    }
+    alert("Vowel Count: " + count);
+}
+
+function numberPattern() {
+    let n = Number(prompt("Enter a number:"));
+    let pattern = "";
+    for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= i; j++) {
+            pattern += j + " ";
+        }
+        pattern += "\n";
+    }
+    console.log(pattern);
+}
+
+function smallestOfThree() {
+    let a = Number(prompt("Enter first number:"));
+    let b = Number(prompt("Enter second number:"));
+    let c = Number(prompt("Enter third number:"));
+    let smallest = a;
+    if (b < smallest) smallest = b;
+    if (c < smallest) smallest = c;
+    alert("Smallest Number: " + smallest);
+}
+
+function billCalculator() {
+    let items = Number(prompt("Number of items:"));
+    let price = Number(prompt("Price per item:"));
+    alert("Total Bill: ₹" + (items * price));
+}
+
+function leapYear() {
+    let year = Number(prompt("Enter year:"));
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0)
+        alert("Leap Year");
+    else alert("Not a Leap Year");
+}
+
+function countOdd() {
+    let limit = Number(prompt("Enter limit:"));
+    let count = 0;
+    for (let i = 1; i <= limit; i++) {
+        if (i % 2 !== 0) count++;
+    }
+    alert("Odd Numbers Count: " + count);
+}
