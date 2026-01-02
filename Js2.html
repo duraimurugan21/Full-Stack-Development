@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript String Practice Tasks</title>
+</head>
+<body>
+
+<script>
+
+function usernameFormatter() {
+    let username = prompt("Enter username:");
+    let formatted = username.trim().toLowerCase();
+    alert("Formatted Username: " + formatted);
+}
+usernameFormatter();
+
+
+function emailValidation() {
+    let email = prompt("Enter email:");
+    if (email.includes("@") && email.includes(".")) {
+        alert("Valid Email");
+    } else {
+        alert("Invalid Email");
+    }
+}
+emailValidation();
+
+
+function characterCount() {
+    let sentence = prompt("Enter a sentence:");
+    let count = 0;
+    for (let ch of sentence) {
+        if (ch !== " ") count++;
+    }
+    alert("Total characters (no spaces): " + count);
+}
+characterCount();
+
+
+function wordCounter() {
+    let para = prompt("Enter a paragraph:");
+    let words = para.trim().split(/\s+/);
+    alert("Word Count: " + words.length);
+}
+wordCounter();
+
+function firstLastChar() {
+    let str = prompt("Enter a string:");
+    if (str.length > 0) {
+        alert("First: " + str[0] + "\nLast: " + str[str.length - 1]);
+    } else {
+        alert("Empty string");
+    }
+}
+firstLastChar();
+
+
+function replaceWord() {
+    let sentence = prompt("Enter sentence:");
+    let word = prompt("Word to replace:");
+    let newWord = prompt("New word:");
+    alert(sentence.replace(word, newWord));
+}
+replaceWord();
+
+
+function lengthValidator() {
+    let text = prompt("Enter text:");
+    if (text.length < 5 || text.length > 20) {
+        alert("Error: Length must be 5–20 characters");
+    } else {
+        alert("Valid Input");
+    }
+}
+lengthValidator();
+
+
+function countUppercase() {
+    let str = prompt("Enter string:");
+    let count = 0;
+    for (let ch of str) {
+        if (ch >= 'A' && ch <= 'Z') count++;
+    }
+    alert("Uppercase Letters: " + count);
+}
+countUppercase();
+
+
+function removeSpecialChars() {
+    let str = prompt("Enter string:");
+    let clean = "";
+    for (let ch of str) {
+        if ((ch >= 'a' && ch <= 'z') ||
+            (ch >= 'A' && ch <= 'Z') ||
+            (ch >= '0' && ch <= '9') ||
+            ch === " ") {
+            clean += ch;
+        }
+    }
+    alert("Clean String: " + clean);
+}
+removeSpecialChars();
+
+
+
+function startsEndsWith() {
+    let str = prompt("Enter string:");
+    let start = prompt("Start word:");
+    let end = prompt("End word:");
+    alert(
+        "Starts with '" + start + "': " + str.startsWith(start) +
+        "\nEnds with '" + end + "': " + str.endsWith(end)
+    );
+}
+startsEndsWith();
+
+
